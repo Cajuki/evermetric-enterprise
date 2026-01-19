@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Equipment from './components/Equipment';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/navbar';
+import Hero from './components/hero';
+import Services from './components/services';
+import Equipment from './components/equipment';
+import Contact from './components/contact';
+import Footer from './components/footer';
 import './index.css';
 
 function App() {
