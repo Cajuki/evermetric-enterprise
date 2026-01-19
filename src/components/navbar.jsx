@@ -73,7 +73,7 @@ const Navbar = () => {
         ))}
         <div className="mobile-contact">
           <Phone size={18} />
-          <span>+1 (555) 123-4567</span>
+          <span>0790080903</span>
         </div>
       </div>
     </nav>
