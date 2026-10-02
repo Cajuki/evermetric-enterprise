@@ -5,23 +5,22 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <div className="hero-content">
+        <span className="eyebrow">Healthcare, made dependable</span>
         <h1 className="hero-title">
-          Advanced Medical & Laboratory
-          <span className="highlight"> Equipment Solutions</span>
+          Better care starts with <span className="highlight">better equipment.</span>
         </h1>
         <p className="hero-subtitle">
-          Evermetric Enterprises provides state-of-the-art medical equipment, laboratory 
-          instruments, and comprehensive healthcare solutions with unparalleled service 
-          and support.
+          Evermetric Enterprises supplies medical and laboratory equipment, backed by the
+          expertise and support healthcare teams need to deliver their best work.
         </p>
         <div className="hero-buttons">
-          <button className="btn-primary">
+          <a className="btn-primary" href="#contact">
             Request Quote
             <ArrowRight size={20} />
-          </button>
-          <button className="btn-secondary">
+          </a>
+          <a className="btn-secondary" href="#equipment">
             View Products
-          </button>
+          </a>
         </div>
         
         <div className="hero-stats">
@@ -50,8 +49,7 @@ const Hero = () => {
       </div>
       
       <div className="hero-image">
-        <div className="image-placeholder">
-          {/* Replace with actual image */}
+        <div className="image-placeholder" role="img" aria-label="Healthcare professional working with medical equipment">
           <div className="image-overlay">
             <div className="floating-card">
               <h4>Since 1998</h4>

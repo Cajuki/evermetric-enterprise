@@ -51,10 +51,10 @@ const Navbar = () => {
 
         <div className="nav-contact">
           <Phone size={18} />
-          <span>+1 (555) 123-4567</span>
+          <span>0790080903</span>
         </div>
 
-        <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
+        <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)} aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={isOpen}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
